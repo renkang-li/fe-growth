@@ -1,0 +1,112 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "demo",
+      "password": "123456",
+      "nickname": "Demo User"
+    }
+  ],
+  "categories": [
+    {
+      "id": "c1",
+      "name": "手机数码"
+    },
+    {
+      "id": "c2",
+      "name": "电脑办公"
+    },
+    {
+      "id": "c3",
+      "name": "家居家电"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1001",
+      "title": "Aurora X1 手机 256G",
+      "price": 3299,
+      "originalPrice": 3599,
+      "sales": 520,
+      "stock": 88,
+      "categoryId": "c1",
+      "cover": "https://picsum.photos/seed/p1001/600/600",
+      "images": [
+        "https://picsum.photos/seed/p1001a/1000/1000",
+        "https://picsum.photos/seed/p1001b/1000/1000"
+      ],
+      "tags": [
+        "新品",
+        "热卖"
+      ],
+      "description": "轻薄机身，长续航，适合日常和拍照使用。"
+    },
+    {
+      "id": "p1002",
+      "title": "Nimbus Buds Pro 无线耳机",
+      "price": 499,
+      "originalPrice": 699,
+      "sales": 1200,
+      "stock": 320,
+      "categoryId": "c1",
+      "cover": "https://picsum.photos/seed/p1002/600/600",
+      "images": [
+        "https://picsum.photos/seed/p1002a/1000/1000",
+        "https://picsum.photos/seed/p1002b/1000/1000"
+      ],
+      "tags": [
+        "降噪",
+        "通勤"
+      ],
+      "description": "主动降噪，支持多设备连接。"
+    },
+    {
+      "id": "p2001",
+      "title": "NovaBook 14 轻薄本",
+      "price": 5499,
+      "originalPrice": 5999,
+      "sales": 340,
+      "stock": 45,
+      "categoryId": "c2",
+      "cover": "https://picsum.photos/seed/p2001/600/600",
+      "images": [
+        "https://picsum.photos/seed/p2001a/1000/1000",
+        "https://picsum.photos/seed/p2001b/1000/1000"
+      ],
+      "tags": [
+        "办公",
+        "学习"
+      ],
+      "description": "14 英寸高分屏，适合学习和移动办公。"
+    },
+    {
+      "id": "p3001",
+      "title": "Aero 智能空气炸锅 6L",
+      "price": 399,
+      "originalPrice": 499,
+      "sales": 860,
+      "stock": 140,
+      "categoryId": "c3",
+      "cover": "https://picsum.photos/seed/p3001/600/600",
+      "images": [
+        "https://picsum.photos/seed/p3001a/1000/1000",
+        "https://picsum.photos/seed/p3001b/1000/1000"
+      ],
+      "tags": [
+        "厨房",
+        "小家电"
+      ],
+      "description": "一机多用，支持预设菜单和定时功能。"
+    }
+  ],
+  "carts": {
+    "u1": [
+      {
+        "productId": "p1001",
+        "quantity": 1,
+        "checked": true
+      }
+    ]
+  },
+  "orders": []
+}
